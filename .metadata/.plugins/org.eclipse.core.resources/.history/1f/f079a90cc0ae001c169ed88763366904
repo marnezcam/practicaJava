@@ -1,0 +1,53 @@
+package com;
+
+public class Principal {
+	
+	// declaracion del metodo main
+	// Solo debe de existir un dolo metodo main en todo aplicativo java o programa java
+	public static void main(String[] args) {
+		
+		boolean bol = true;
+		
+		float flotante = 12.9f;
+		double numdo= 23.098;
+		
+		char c = 'b';
+		byte num = 127;
+		short numshort = 32767;
+		int numint = 999999;
+		long numlong = 999999999;
+		
+		//instanciando objetos de clases wraper
+		Boolean bolean = true;
+		System.out.println(bolean.toString() + " en cadena");
+		
+		Character ch = 'j';
+		System.out.println(ch.getNumericValue(c));
+		
+		Integer ingr = 2098;
+		System.out.println(ingr+10);
+		System.out.println(ingr.toString()+" Es un string");
+		
+		System.out.println(ingr.min(36, 24));
+		
+		Float flot = 2.9f;
+		System.out.println(flot.hashCode()); 
+		
+		Double dou = 7.365245;
+		System.out.println("Es igual " + dou.equals(7.365245));
+		
+		Byte By = 123;
+		System.out.println("El hash de byte es: " + By.hashCode());
+		
+		Short numsh = 2000;
+		System.out.println("Devuelve cadena: " + numsh.toString());
+		
+		Long numlong = 200000000;
+		System.out.println("Devuelve el hash de un long" + numlong.hashCode());
+		
+		String texto = "Escrito culquiera";
+		System.out.println(texto.length());
+		
+	}
+
+}

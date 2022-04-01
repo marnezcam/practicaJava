@@ -1,0 +1,17 @@
+package com;
+import java.util.Scanner;
+public class Principal {
+	public static void main(String[] args) {
+		String palindromo = "";
+		System.out.println("Saber si es un palindromo");
+		System.out.println("Introduce tu palabra o frase\n");
+		Scanner teclado = new Scanner(System.in);
+		teclado.close();
+		System.out.println("\n");
+		palindromo = teclado.nextLine();
+		for(int i=0;i<palindromo.length();i++){
+			System.out.println(palindromo.charAt(i));
+		}
+		
+	}
+}

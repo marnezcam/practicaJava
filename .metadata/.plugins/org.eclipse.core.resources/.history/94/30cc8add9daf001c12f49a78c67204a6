@@ -1,0 +1,45 @@
+package com;
+
+public class principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=0;
+//		while(x<15) {
+//			System.out.println("Hola");
+//			x++;
+//		}
+		
+		//--------------------------------------------------------------
+		
+//		do {
+//			System.out.println("OK");
+//			x++;
+//		}
+//		while(x<15);
+		//--------------------------------------------------------------
+		
+//		for(int i=50;i>=15;i--) {
+//			System.out.println("hola " + i + " vez");
+//		}
+		//--------------------------------------------------------------
+		
+		String m ="29 de Marzo";
+		String m2 = m.replaceAll("[^a-zA-Z]", "");
+		int contadorVocales=0;
+		int contadorConsonantes;
+		
+//		System.out.println(m.length());
+//		System.out.println(m.charAt(8));
+		for(int i=0;i<m2.length();i++) {
+			System.out.println(m2.charAt(i));
+			if(Character.isUpperCase(m2.charAt(i))){
+				contadorVocales++;
+			}
+		}
+		System.out.println("Hay " + contadorVocales + "vocales" );
+		
+
+	}
+
+}

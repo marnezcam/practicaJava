@@ -1,0 +1,10 @@
+package com;
+
+public class Principal {
+	public static void main(String[] args){
+		//Pesona invierte 1000 pesos en un banco
+		for(int i=0;i<=12;i++) {
+			System.out.println();
+		}
+	}
+}

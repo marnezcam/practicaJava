@@ -1,0 +1,28 @@
+package com;
+
+public class Principal {
+	
+	// declaracion del metodo main
+	// Solo debe de existir un dolo metodo main en todo aplicativo java o programa java
+	public static void main(String[] args) {
+		
+		boolean bol = true;
+		
+		float flotante = 12.9f;
+		double numdo= 23.098;
+		
+		char c = 'a';
+		byte num = 127;
+		short numshort = 32767;
+		int numint = 999999;
+		long numlong = 999999999;
+		
+		//instanciando objetos de clases wraper
+		Boolean bolean = true;
+		Character ch = 'j';
+		System.out.println(ch.getNumericValue(c));
+		
+		
+	}
+
+}

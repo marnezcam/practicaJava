@@ -1,0 +1,16 @@
+package com;
+import java.util.Scanner;
+public class Principal {
+	public static void main(String[] args) {
+		String palabra;
+		char letra;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Introduce una palabla");
+		palabra = teclado.nextLine();
+		System.out.println("Introduce una letra");
+		letra = teclado.next().charAt(0);
+		teclado.close();
+		System.out.println("Palabra: " + palabra + "\nLetra: " + letra);
+		
+	}
+}
